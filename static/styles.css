@@ -1,0 +1,35 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #2e2e2e; /* gris foncé */
+    color: #f0f0f0; /* gris clair */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1c1c1c; /* noir */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #f0f0f0;
+}
+
+h2 {
+    color: #dcdcdc;
+}
+
+section {
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: #333333;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1c1c1c;
+}
