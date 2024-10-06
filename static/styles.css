@@ -87,18 +87,11 @@ section p {
     color: #f0f0f0;
 }
 
-.sidebar .profile-photo {
-    display: flex;
-    justify-content: center; /* Centre l'image horizontalement */
-    align-items: center; /* (Facultatif) Pour centrer verticalement si nécessaire */
-    margin-bottom: 20px; /* Espacement sous l'image */
-    height: auto; /* Ajuste selon tes besoins */
-}
-
 .sidebar .profile-photo img {
     width: 100px; /* Taille de l'image */
     height: 100px; /* Taille de l'image */
     border-radius: 50%; /* Rend l'image ronde */
     border: 3px solid #ddd; /* Bordure autour de l'image */
-    object-fit: cover; /* Assure que l'image est bien ajustée */
+    display: block;
+    margin: auto;
 }
