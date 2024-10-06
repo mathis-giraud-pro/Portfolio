@@ -96,5 +96,4 @@ section p {
     position: absolute;
     border: 3px solid #ddd; /* Ajoute une bordure grise autour de l'image */
     margin-bottom: 20px;
-    object-fit: cover; /* Assure que l'image est bien centrée et ne se déforme pas */
-}
+} /* Assure que l'image est bien centrée et ne se déforme pas */
