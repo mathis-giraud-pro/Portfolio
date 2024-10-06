@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #1c1c1c; /* noir */
+    background-color: #2e2e2e; /* gris foncé */
     padding: 20px;
     text-align: center;
 }
@@ -28,12 +28,12 @@ section {
     margin: 40px auto;
     padding: 20px;
     max-width: 800px;
-    background-color: #333333;
+    background-color: #2e2e2e; /* gris foncé */
     border-radius: 10px;
 }
 
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #1c1c1c;
+    background-color: #2e2e2e; /* gris foncé */
 }
