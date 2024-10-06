@@ -88,8 +88,8 @@ section p {
 }
 
 .sidebar .profile-photo img {
-    width: 100px; /* Taille de l'image */
-    height: 100px; /* Taille de l'image */
+    width: 10px; /* Taille de l'image */
+    height: 10px; /* Taille de l'image */
     border-radius: 50%; /* Rend l'image ronde */
     border: 3px solid #ddd; /* Ajoute une bordure grise autour de l'image */
     margin-bottom: 20px;
