@@ -3,45 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Mon Portfolio</title>
     <link rel="stylesheet" href="static/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap">
 </head>
 <body>
-    <header>
-        <h1>Bienvenue sur mon Portfolio</h1>
-    </header>
 
-    <!-- Menu de navigation à gauche -->
+    <!-- Menu latéral avec photo et navigation -->
     <nav class="sidebar">
-        <ul>
-            <li><a href="#formation">Formation</a></li>
-            <li><a href="#experiences">Expériences</a></li>
-            <li><a href="#competences">Compétences</a></li>
+        <div class="profile-photo">
+            <img src="static/photo.jpg" alt="Ma photo">
+        </div>
+        <ul class="nav-menu">
+            <li>
+                <a href="#about">
+                    <i class="mdi mdi-account"></i>
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="#experience">
+                    <i class="mdi mdi-chart-line"></i>
+                    <span>Experience</span>
+                </a>
+            </li>
+            <li>
+                <a href="#projects">
+                    <i class="mdi mdi-folder-outline"></i>
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="#skills">
+                    <i class="mdi mdi-star"></i>
+                    <span>Skills</span>
+                </a>
+            </li>
+            <li>
+                <a href="#education">
+                    <i class="mdi mdi-school"></i>
+                    <span>Education</span>
+                </a>
+            </li>
+            <li>
+                <a href="#contact">
+                    <i class="mdi mdi-email"></i>
+                    <span>Contact</span>
+                </a>
+            </li>
+            <li>
+                <a href="#resume">
+                    <i class="mdi mdi-file"></i>
+                    <span>Resume</span>
+                </a>
+            </li>
         </ul>
     </nav>
 
-    <!-- Contenu principal avec les sections -->
+    <!-- Contenu principal -->
     <div class="content">
-        <section id="formation">
-            <h2>Formation</h2>
-            <p>Votre parcours de formation ici.</p>
+        <section id="about">
+            <h2>About</h2>
+            <p>Description de la section "About".</p>
         </section>
 
-        <section id="experiences">
-            <h2>Expériences</h2>
-            <p>Vos expériences professionnelles ici.</p>
+        <section id="experience">
+            <h2>Experience</h2>
+            <p>Description de la section "Experience".</p>
         </section>
 
-        <section id="competences">
-            <h2>Compétences</h2>
-            <p>Vos compétences ici.</p>
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>Description de la section "Projects".</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <p>Description de la section "Skills".</p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <p>Description de la section "Education".</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Description de la section "Contact".</p>
+        </section>
+
+        <section id="resume">
+            <h2>Resume</h2>
+            <p>Description de la section "Resume".</p>
         </section>
     </div>
 
-    <footer>
-        <p>© 2024 Mon Portfolio</p>
-    </footer>
 </body>
 </html>
