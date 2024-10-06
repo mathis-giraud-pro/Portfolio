@@ -86,3 +86,12 @@ section p {
     font-size: 16px;
     color: #f0f0f0;
 }
+
+.sidebar .profile-photo img {
+    width: 100px; /* Taille de l'image */
+    height: 100px; /* Taille de l'image */
+    border-radius: 50%; /* Rend l'image ronde */
+    border: 3px solid #ddd; /* Ajoute une bordure grise autour de l'image */
+    margin-bottom: 20px;
+    object-fit: cover; /* Assure que l'image est bien centrée et ne se déforme pas */
+}
